@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd 
 import matplotlib.pyplot as plt 
 
-st.asvt_page_config(page_title = "Stock Data Extraction App",layout="wide")
+st.set_page_config(page_title = "Stock Data Extraction App",layout="wide")
 
 st.title("Stock Data Extraction App")
 
